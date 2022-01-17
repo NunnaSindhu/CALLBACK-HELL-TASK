@@ -22,9 +22,9 @@ const myfun=()=>{
                     countDown.innerHTML=count--;
                     setTimeout(()=>{
                       countDown.innerHTML=count--;
-                      setTimeout(()=>{
-                        countDown.innerHTML="Happy Republic Day";
+                      setTimeout(()=>{                        
                         document.getElementById("image").style.display="inline";
+                           countDown.innerHTML="Happy Republic Day";
                       },time);
                     },time);
                   },time);
